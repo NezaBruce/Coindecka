@@ -28,10 +28,9 @@ coindec key remove
 coindec check price
 
 # Check Specific Coins (default: BTC,ETH,XRP,USDT,ADA)
-coindec check --coin=BTC,ETH
-
+coindec check price --coin=BTC
 # Choose Currency (Default: USD)
-coindec check --cur=EUR
+coindec check price --cur=USD
 ```
 
 ### Version
